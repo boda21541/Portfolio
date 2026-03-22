@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaswanth Boda | Manufacturing & Quality Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --dark: #0f172a; --accent: #3b82f6; --gray: #64748b; --bg: #f8fafc; }
+        body { font-family: 'Inter', sans-serif; margin: 0; background: var(--bg); color: var(--dark); line-height: 1.6; scroll-behavior: smooth; }
+        nav { background: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .nav-links a { text-decoration: none; color: var(--dark); margin-left: 15px; font-weight: 500; font-size: 0.8rem; }
+        header { 
+            height: 60vh; background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.9)), url('IMG_7712.jpeg');
+            background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; padding: 0 20px;
+        }
+        .container { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+        section { margin-bottom: 60px; }
+        h2 { font-size: 1.75rem; border-bottom: 2px solid var(--accent); display: inline-block; margin-bottom: 30px; }
+        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; border-left: 4px solid var(--accent); }
+        .skill-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 10px; }
+        .skill-tag { background: #eff6ff; color: var(--accent); padding: 8px; border-radius: 8px; text-align: center; font-weight: 600; font-size: 0.9rem; border: 1px solid #dbeafe; }
+        .btn { padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; transition: 0.3s; }
+        .btn-primary { background: var(--accent); color: white; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div style="font-weight: 800; font-size: 1.2rem;">JB.</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#leadership">Leadership</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>JASWANTH BODA</h1>
+        <p>Manufacturing & Quality Engineer | Hyderabad, India</p>
+        <div style="display: flex; gap: 15px;">
+            <a href="Boda Jaswanth.pdf" class="btn btn-primary" download><i class="fas fa-file-download"></i> CV</a>
+            <a href="https://www.linkedin.com/in/boda-jaswanth" target="_blank" class="btn" style="background:white; color:var(--dark)"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>Results-driven Manufacturing & Quality Engineer specializing in **Quality 4.0** transformation. Proven expertise in automating compliance workflows using **Power BI** and **AI**, reducing manual analysis time by 60%. Experienced in leading teams of up to **25+ members** to drive operational throughput and maintain 100% compliance in FDA-regulated environments.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Arsenal</h2>
+            <div class="skill-grid">
+                <div class="skill-tag">Power BI & Tableau</div>
+                <div class="skill-tag">Python (Pandas/NumPy)</div>
+                <div class="skill-tag">SQL</div>
+                <div class="skill-tag">ISO 13485 / 21 CFR 820</div>
+                <div class="skill-tag">Lean Six Sigma</div>
+                <div class="skill-tag">Validation (IQ/OQ/PQ)</div>
+                <div class="skill-tag">SolidWorks & AutoCAD</div>
+                <div class="skill-tag">SAP & Minitab</div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="card">
+                <h3>Manufacturing Process Engineer</h3>
+                <p style="color:var(--accent); font-weight:600;">Thermo Fisher Scientific | 2025 – Present</p>
+                <ul>
+                    <li>Reduced material scrap by 15% via Lean bottleneck analysis.</li>
+                    <li>Developed Power BI dashboards for real-time yield and scrap rates.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Quality Engineer</h3>
+                <p style="color:var(--accent); font-weight:600;">Avanos Medical | 2024 – 2025</p>
+                <ul>
+                    <li>SME for AI-driven digital transformation, reducing data analysis time by 60%.</li>
+                    <li>Led a quality team of 6-8 members for complaint resolution.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Quality Assurance Engineer</h3>
+                <p style="color:var(--accent); font-weight:600;">Teckybot | 2020 – 2021</p>
+                <ul>
+                    <li>Managed quality control for e-bike safety compliance.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Maintenance Intern</h3>
+                <p style="color:var(--accent); font-weight:600;">Hindustan Coca-Cola Beverages | 2019</p>
+                <p>Assisted in breakdown analysis and plant machinery maintenance.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Key Projects</h2>
+            <div class="card">
+                <h3>AI Complaint Analytics (Avanos Medical)</h3>
+                <p>Optimized global complaint tracking using AI, enabling audit-ready reporting and predictive quality insights.</p>
+            </div>
+            <div class="card">
+                <h3>Electric Bike Build (K L University)</h3>
+                <p>Built a student electric motorcycle; participated in **Champions of Champions 2019** at KLU conducted by ISIE.</p>
+            </div>
+        </section>
+
+        <section id="leadership">
+            <h2>Leadership & Impact</h2>
+            <div class="card" style="background:#0f172a; color:white; border:none;">
+                <p><strong>Core Head - Mechanical Dept Student Body:</strong> Led 25+ members in technical workshop management and major departmental events.</p>
+                <p><strong>Head of NSS:</strong> Managed volunteer teams for community service and social development initiatives.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card">
+                <strong>Master of Science in Industrial Engineering</strong><br>
+                Southern Illinois University Edwardsville (SIUE), USA | 2023
+            </div>
+            <div class="card">
+                <strong>Bachelor of Science in Mechanical Engineering</strong><br>
+                K L University (KLU), India | 2021
+            </div>
+        </section>
+
+    </div>
+
+    <footer style="text-align:center; padding:40px; color:var(--gray);">
+        &copy; 2026 Jaswanth Boda | Hyderabad, India
+    </footer>
+
+</body>
+</html>
 
