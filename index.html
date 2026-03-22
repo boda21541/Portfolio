@@ -1,1 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaswanth Boda | Portfolio</title>
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+<style>
+:root {
+  --dark: #0f172a;
+  --accent: #3b82f6;
+  --bg: #020617;
+  --card: rgba(255,255,255,0.05);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #e2e8f0;
+}
+
+/* NAV */
+nav {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.05);
+  padding: 1rem 5%;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* HEADER */
+header {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #1e3a8a, #020617);
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+header p {
+  color: #94a3b8;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-secondary {
+  background: white;
+  color: black;
+}
+
+.btn-dark {
+  background: #111827;
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CARDS */
+.card {
+  background: var(--card);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* SKILLS */
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  gap: 10px;
+}
+
+.skill-tag {
+  background: rgba(59,130,246,0.2);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+/* PROJECTS */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* LINKS */
+a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div><b>JB.</b></div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>JASWANTH BODA</h1>
+  <p>🚀 Data-Driven Manufacturing & Quality Engineer</p>
+  <p>Improved efficiency by 15% | Reduced analysis time by 60%</p>
+
+  <div>
+    <a href="Boda%20Jaswanth.pdf" download class="btn btn-primary">Download Resume</a>
+    <a href="https://www.linkedin.com/in/boda-jaswanth" target="_blank" class="btn btn-secondary">LinkedIn</a>
+    <a href="https://github.com/boda21541" target="_blank" class="btn btn-dark">GitHub</a>
+  </div>
+</header>
+
+<div class="container">
+
+<section id="about">
+<h2>About</h2>
+<div class="card">
+Results-driven engineer specializing in automation, data analytics, and quality systems. Focused on Industry 4.0 transformation, improving manufacturing efficiency using data-driven solutions.
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skill-grid">
+<div class="skill-tag">Python</div>
+<div class="skill-tag">SQL</div>
+<div class="skill-tag">Power BI</div>
+<div class="skill-tag">Tableau</div>
+<div class="skill-tag">IQ/OQ/PQ</div>
+<div class="skill-tag">Lean Six Sigma</div>
+<div class="skill-tag">Minitab</div>
+<div class="skill-tag">SAP</div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+
+<div class="card">
+<h3>Manufacturing Engineer</h3>
+<p><b>Thermo Fisher Scientific</b></p>
+<ul>
+<li>Reduced scrap by 15% using Lean methods</li>
+<li>Developed Power BI dashboards for KPI tracking</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Quality Engineer</h3>
+<p><b>Avanos Medical</b></p>
+<ul>
+<li>Automated complaint workflows using TrackWise</li>
+<li>Executed IQ/OQ/PQ validations</li>
+</ul>
+</div>
+
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Manufacturing Dashboard</h3>
+<p>Power BI dashboard for real-time production tracking</p>
+<a href="https://github.com/boda21541" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+<h3>Data Analysis Automation</h3>
+<p>Python scripts to automate reporting workflows</p>
+<a href="https://github.com/boda21541" target="_blank">View Project</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p>📧 bodajaswanth1999@gmail.com</p>
+<p>🔗 <a href="https://www.linkedin.com/in/boda-jaswanth" target="_blank">LinkedIn</a></p>
+<p>💻 <a href="https://github.com/boda21541" target="_blank">GitHub</a></p>
+</div>
+</section>
+
+</div>
+
+<footer style="text-align:center;padding:30px;color:#94a3b8;">
+© 2026 Jaswanth Boda
+</footer>
+
+</body>
+</html>
